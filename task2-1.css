@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    width: 100%;
+    max-width: 640px;
+    margin:0 auto;
+}
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background: #29bde0;
+    height: 5rem;
+    max-width: 640px;
+    z-index:2;
+
+
+}
+header a img{
+    padding:1rem 2rem;
+}
+
+.main{
+    height: 500px;
+    max-width:640px;
+    margin:5rem auto 0;
+    background: #efefef;
+}
+.box1{
+    width:98%;
+    height:40rem;
+    margin:0 auto 0;
+    position:relative;
+    top:0.5rem;
+    background:#FFFFFF;
+    text-align:center;
+    font-size:1.6rem;
+    line-height:4rem;
+}
+.list1{
+    border-bottom: 1px solid #efefef;
+    font-size:1.8rem;
+    letter-spacing: 5px;
+    text-align:center;}
+.list2 {
+    padding-bottom:12rem;
+    border-bottom:1px solid #efefef;
+}
+.list2 p{
+    display:inline-block;
+
+    font-size:1.6rem;
+}
+.list2 p:first-child{
+    margin-right:5rem;
+}
+.list2 p:last-child{
+    margin-left:5rem;
+}
+.myform{
+    margin: 5rem 0;
+}
+#nn{
+    width:2rem;
+    /*border:none;*/
+    outline:none;
+}
+.text1{
+    font-size:1.8rem;
+
+}
+.text2{
+    font-size:1.4rem;
+    color:orange;
+}
+#set{
+    width:40%;
+    height:3rem;
+    background:orange;
+    border-radius:10px;
+    color:#FFFFFF;
+    outline:none;
+    border:none;
+}
+.button1{
+    width:90%;
+    height:3rem;
+    margin-top: 5rem;
+    border-radius:10px;
+    background:orange;
+    color:#FFFFFF;
+    border:none;
+    font-size:1.6rem;
+    outline:none;
+}

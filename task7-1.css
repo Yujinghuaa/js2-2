@@ -1,0 +1,145 @@
+html{
+    font-size: 62.5%;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    width:100%;
+    max-width:640px;
+    height:3.5rem;
+    background-color:#29bde0;
+    margin:0 auto;
+
+}
+.header img{
+    position:absolute;
+    top:0.5rem;
+    left:1rem;
+
+}
+.main{
+    padding-top:1rem;
+    padding-bottom:2rem;
+    width:100%;
+    max-width:640px;
+    background-color:#efefef;
+    text-align:center;
+    margin:0 auto;
+}
+.list{
+    margin:1rem 0;
+}
+.list2{
+    width:90%;
+    margin:0 auto;
+    position:relative;
+    background-color:#ffffff;
+
+}
+.game{
+    width:90%;
+    margin:0 auto 1rem;
+    background-color: #FFFFFF;
+    height: 4rem;
+    position: relative;
+
+}
+.game a{
+    display:inline-block;
+    font-size:1.6rem;
+    color:#9a9a9a;
+    line-height: 4rem;
+    padding:0 20%;
+}
+.game a:link{
+    text-decoration:none;
+
+}
+.game a:visited{
+    text-decoration:none;
+
+}
+.game a:hover{
+    text-decoration:none;
+    color:#9a9a9a;
+}
+.game a:focus{
+    text-decoration:none;
+
+}
+
+
+.game img{
+    transform:scale(0.8,0.8);
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+    }
+.list{
+    margin-bottom:2rem;
+}
+.list-2 {
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+
+}
+.ghost{
+    font-size: 1.6rem;
+    color:#fdda9a;
+    border-bottom:1px solid #fdda9a;
+    padding: 1.5rem 0;
+}
+
+
+
+.simple input{
+    margin:0 auto;
+    background-color:#69d1e9;
+    width:80%;
+    color:#FFFFFF;
+    font-size:1.6rem;
+    padding:1.8rem 0 ;
+    border:none;
+    outline:none;
+}
+.simple p{
+    font-size:1.3rem;
+    color:#787878;
+    padding: 1rem;
+    margin:0;
+
+}
+.circle{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.circle li{
+    height:1rem;
+    width:1rem;
+    border-radius:50%;
+    background-color:#f0f0f0;
+    display:inline-flex;
+
+}
+.circle li:first-child{
+    background-color:#69d1e9;
+}
+.sanjiaoxing{
+    width:0;
+
+    border-left:20px solid #fbb435;
+    border-top: 20px solid transparent;
+    border-bottom:20px solid transparent;
+    position:absolute;
+    right:5px;
+    top:15.5rem;
+
+}
+

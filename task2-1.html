@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="task2-1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+ <a href="task2.html"><img src="pic/pic-1.png"></a>
+</header>
+<div class="main">
+    <div class="box1">
+       <div class="list1">
+          <span>玩家配比</span>
+       </div>
+        <div class="list2">
+            <p><span>杀手</span><span id="killer">&nbsp4&nbsp</span><span>人</span></p>
+            <p><span>水民</span><span id="people">&nbsp7&nbsp</span><span>人</span></p>
+        </div>
+        <!--<div>-->
+            <!--<span >1号 水民</span>-->
+            <!--<span >1号 水民</span>-->
+            <!--<span >1号 水民</span>-->
+            <!--<span >1号 水民</span>-->
+            <!--<span >1号 水民</span>-->
+            <!--<span >1号 水民</span>-->
+        <!--</div>-->
+        <form name="myform">
+            <!--<div>-->
+                <!--<input type="button" value="点击设置" id="set">-->
+            <!--</div>-->
+            <div>
+           <span class="text1">请输入玩家数量</span> <input type="text" name="name" id="nn" class="number" onchange="number()"/>
+           <span class="text2">玩家数量4-18人</span>
+            </div>
+            <div>
+                <input type="button" value="-" id="minus" onclick="minuss()">
+                <input  type="range" name="points" min="4" max="18" id="range" oninput="rang()" />
+                <input type="button" value="+" id="add" onclick="adds()" >
+            </div>
+        </form>
+        <input type="button" name="button" value="去发牌" id="go"  class="button1" />
+    </div>
+</div>
+<script src="task2-1.js"></script>
+<script src="jquery-1.9.1.js"></script>
+</body>
+
+</html>
